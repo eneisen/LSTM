@@ -1,6 +1,8 @@
 # LSTM
 Implementation of a character-level language model using Long Short-Term Memory Recurrent Neural Networks for generation of Text that resemble Shakespeare Writings. 
-LSTM Hyperparameter:
+
+
+### LSTM Hyperparameter:
 
 emb_size = 16
 hidden_size = 256  # size of hidden layer of neurons
@@ -8,11 +10,9 @@ seq_length = 128  # number of steps to unroll the RNN for
 learning_rate = 5e-2
 max_updates = 10000
 batch_size = 32
-----------------------------------------------------------------
 
-Sampled test after 9780 iterations:
-----------------------------------------------------------------
 
+### Sampled test after 9780 iterations:
 
 MARCIUS:
 Besides for his sentence stand your hands.
