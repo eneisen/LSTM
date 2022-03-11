@@ -4,11 +4,16 @@ Implementation of a character-level language model using Long Short-Term Memory 
 
 ### LSTM Hyperparameter:
 
-emb_size = 16
+emb_size = 16 
+
 hidden_size = 256 
+
 seq_length = 128  
+
 learning_rate = 5e-2
+
 max_updates = 10000
+
 batch_size = 32
 
 
